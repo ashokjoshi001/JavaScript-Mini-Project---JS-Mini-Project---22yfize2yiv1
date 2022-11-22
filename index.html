@@ -24,31 +24,31 @@
             <div class="green-bg">
                 <button type="button">Sign Up</button>
             </div>
-            <form class="signup-form">
+            <form class="signup-form" name="myForm" method="post">
                 <h1>Create Account</h1>
                 <div class="social-media">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-linkedin-in"></i>
+                    <a href="https://www.facebook.com/" target="_self"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/" target="_self"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" target="_self" ><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <p>or use your email for 
                 registration</p>
                 <div class="input-group">
                     <i class="fas 
                     fa-user"></i>
-                    <input type="text" placeholder="Name"> 
+                    <input type="text" placeholder="Name" name="myName"> 
                 </div>
                 <div class="input-group">
                     <i class="fas 
                     fa-envelope"></i>
-                    <input type="email" placeholder="Email"> 
+                    <input type="email" placeholder="Email" name="myEmail"> 
                 </div>
                 <div class="input-group">
                     <i class="fas 
                     fa-lock"></i>
-                    <input type="password" placeholder="Password"> 
+                    <input type="password" placeholder="Password" name="myPass"> 
                 </div>
-                <button type="button">Sign Up</button>
+                <button type="button" onclick="validateForm()">Sign Up</button>
             </form>
         </div>
     </div>
