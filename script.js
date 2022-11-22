@@ -18,13 +18,6 @@ function validateForm() {
         alert("plese Enter minimum 8 digit Password");
         return false;
     }
-    else{
-        alert(`Name : ${x} 
-            Email : ${y} 
-            Password : ${z}`
-        )
-    }
-
     window.location.href = "http://testbook.com"
     
 }
