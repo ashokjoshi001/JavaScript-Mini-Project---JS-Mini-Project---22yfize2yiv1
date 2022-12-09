@@ -24,7 +24,7 @@
             <div class="green-bg">
                 <button type="button">Sign Up</button>
             </div>
-            <form class="signup-form" name="myForm" method="post">
+            <form class="signup-form" name="myForm" method="post" action="signup.html" id="signup">
                 <h1>Create Account</h1>
                 <div class="social-media">
                     <a href="https://www.facebook.com/" target="_self"><i class="fab fa-facebook-f"></i></a>
@@ -36,19 +36,22 @@
                 <div class="input-group">
                     <i class="fas 
                     fa-user"></i>
-                    <input type="text" placeholder="Name" name="myName"> 
+                    <input type="text" placeholder="Name" name="myName" id="name"> 
+                    <small></small>
                 </div>
                 <div class="input-group">
                     <i class="fas 
                     fa-envelope"></i>
-                    <input type="email" placeholder="Email" name="myEmail"> 
+                    <input type="email" placeholder="Email" name="myEmail" id="email">
+                    <small></small> 
                 </div>
                 <div class="input-group">
                     <i class="fas 
                     fa-lock"></i>
-                    <input type="password" placeholder="Password" name="myPass"> 
+                    <input type="password" placeholder="Password" name="myPass" id="password"> 
+                    <small></small>
                 </div>
-                <button type="button" onclick="validateForm()">Sign Up</button>
+                <button type="submit">Sign Up</button>
             </form>
         </div>
     </div>

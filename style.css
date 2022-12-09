@@ -150,3 +150,9 @@ html {
     margin-top: 3rem;
     cursor: pointer;
 }
+small{
+    display: flex;
+    flex-direction: column;
+    color: rgb(250, 3, 3);
+    font-size: small;
+}
